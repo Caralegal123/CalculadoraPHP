@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora com Botões e Funções</title>
+</head>
+<body>
+    <form action="index.php" method="POST">
+        <p>Insira o primeiro numero:<input type="number" name="1num" /></p>
+        <p>Insira o segundo numero:<input type="number" name="2num" /></p>
+        <P><label>
+            <input type="radio" name="operacao" id="adicao" value="adicao" /> Soma
+        </label>
+        <label>
+            <input type="radio" name="operacao" id="subtracao" value="subtracao"/> Subtração
+        </label>
+        <label>
+        <input type="radio" name="operacao" id="multiplicacao" value="multiplicacao"/> Multiplicação
+        </label>
+        <label>
+        <input type="radio" name="operacao" id="divisao" value="divisao"/>  Divisão 
+        </label>
+        <label>
+            <input type="radio" name="operacao" id="potencia" value="potencia"/>  Potenciação
+        </label>
+        <label>
+            <input type="radio" name="operacao" id="raiz" value="raiz"/>  Raiz Quadrada </p>
+        </label>
+        <input type='submit' value='Calcular' />
+        </form>
+    </form>
+</body>
+</html>
